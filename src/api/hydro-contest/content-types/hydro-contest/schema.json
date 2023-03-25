@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "hydro_contests",
+  "info": {
+    "singularName": "hydro-contest",
+    "pluralName": "hydro-contests",
+    "displayName": "HydroContest",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "layout": {
+      "type": "dynamiczone",
+      "components": [
+        "components.hero-section-image",
+        "components.image-slider",
+        "components.title-and-text",
+        "components.features-section",
+        "components.grid-gallery",
+        "components.zig-zag",
+        "components.video-card"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

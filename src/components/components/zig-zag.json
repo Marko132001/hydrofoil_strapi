@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_components_zig_zags",
+  "info": {
+    "displayName": "TextAndImage",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext",
+      "required": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "changeLayout": {
+      "type": "boolean"
+    },
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.link"
+    }
+  }
+}
